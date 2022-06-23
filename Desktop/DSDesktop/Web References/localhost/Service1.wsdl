@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:16924/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:16924/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:16924/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService1" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddComputingTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddComputingTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddComputingTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddComputingTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddManagementTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddManagementTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddManagementTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddManagementTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddEngineeringTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddEngineeringTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddEngineeringTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddEngineeringTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetComTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetComTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetComTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetComTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetmngTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetmngTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetmngTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetmngTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetengTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetengTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetengTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetengTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddStaffTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddStaffTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddStaffTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddStaffTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddStudentTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddStudentTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddStudentTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddStudentTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpEngineeringTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpEngineeringTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpEngineeringTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpEngineeringTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpcomineeringTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpcomineeringTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpcomineeringTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpcomineeringTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpmngineeringTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpmngineeringTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpmngineeringTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpmngineeringTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelEngineeringTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelEngineeringTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelEngineeringTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelEngineeringTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelcomineeringTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelcomineeringTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelcomineeringTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelcomineeringTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelmngineeringTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelmngineeringTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelmngineeringTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelmngineeringTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpStaffTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpStaffTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpStaffTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpStaffTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpStudentTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpStudentTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpStudentTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpStudentTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delstaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:Delstaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delstaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelstaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delstudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:Delstudent" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delstudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelstudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getstf_InputMessage">
+    <wsdl:part name="parameters" element="tns:getstf" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getstf_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getstfResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getstu_InputMessage">
+    <wsdl:part name="parameters" element="tns:getstu" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getstu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getstuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getstfIDnEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:getstfIDnEmail" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getstfIDnEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getstfIDnEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCurrentComTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentComTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCurrentComTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentComTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCurrentMngTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentMngTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCurrentMngTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentMngTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCurrentEngTimeTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentEngTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCurrentEngTimeTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentEngTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Userlogine_InputMessage">
+    <wsdl:part name="parameters" element="tns:Userlogine" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Userlogine_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UserlogineResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchStaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchStudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchStudent" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchStudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WebLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:WebLogin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WebLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WebLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WebLogin2_InputMessage">
+    <wsdl:part name="parameters" element="tns:WebLogin2" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WebLogin2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WebLogin2Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchComputingTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchComputingTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchComputingTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchComputingTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchManagementTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchManagementTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchManagementTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchManagementTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchengineeringTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchengineeringTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchengineeringTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchengineeringTableResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddComputingTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddComputingTimeTable" message="tns:IService1_AddComputingTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddComputingTimeTableResponse" message="tns:IService1_AddComputingTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddManagementTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddManagementTimeTable" message="tns:IService1_AddManagementTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddManagementTimeTableResponse" message="tns:IService1_AddManagementTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddEngineeringTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddEngineeringTimeTable" message="tns:IService1_AddEngineeringTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddEngineeringTimeTableResponse" message="tns:IService1_AddEngineeringTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetComTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetComTimeTable" message="tns:IService1_GetComTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetComTimeTableResponse" message="tns:IService1_GetComTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetmngTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetmngTimeTable" message="tns:IService1_GetmngTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetmngTimeTableResponse" message="tns:IService1_GetmngTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetengTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetengTimeTable" message="tns:IService1_GetengTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetengTimeTableResponse" message="tns:IService1_GetengTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddStaffTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddStaffTable" message="tns:IService1_AddStaffTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddStaffTableResponse" message="tns:IService1_AddStaffTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddStudentTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddStudentTable" message="tns:IService1_AddStudentTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddStudentTableResponse" message="tns:IService1_AddStudentTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpEngineeringTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpEngineeringTimeTable" message="tns:IService1_UpEngineeringTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpEngineeringTimeTableResponse" message="tns:IService1_UpEngineeringTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpcomineeringTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpcomineeringTimeTable" message="tns:IService1_UpcomineeringTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpcomineeringTimeTableResponse" message="tns:IService1_UpcomineeringTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpmngineeringTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpmngineeringTimeTable" message="tns:IService1_UpmngineeringTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpmngineeringTimeTableResponse" message="tns:IService1_UpmngineeringTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelEngineeringTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelEngineeringTimeTable" message="tns:IService1_DelEngineeringTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelEngineeringTimeTableResponse" message="tns:IService1_DelEngineeringTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelcomineeringTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelcomineeringTimeTable" message="tns:IService1_DelcomineeringTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelcomineeringTimeTableResponse" message="tns:IService1_DelcomineeringTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelmngineeringTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelmngineeringTimeTable" message="tns:IService1_DelmngineeringTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelmngineeringTimeTableResponse" message="tns:IService1_DelmngineeringTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpStaffTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpStaffTable" message="tns:IService1_UpStaffTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpStaffTableResponse" message="tns:IService1_UpStaffTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpStudentTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpStudentTable" message="tns:IService1_UpStudentTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpStudentTableResponse" message="tns:IService1_UpStudentTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Delstaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Delstaff" message="tns:IService1_Delstaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelstaffResponse" message="tns:IService1_Delstaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Delstudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Delstudent" message="tns:IService1_Delstudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelstudentResponse" message="tns:IService1_Delstudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getstf">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getstf" message="tns:IService1_getstf_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getstfResponse" message="tns:IService1_getstf_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getstu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getstu" message="tns:IService1_getstu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getstuResponse" message="tns:IService1_getstu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getstfIDnEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getstfIDnEmail" message="tns:IService1_getstfIDnEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getstfIDnEmailResponse" message="tns:IService1_getstfIDnEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentComTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetCurrentComTimeTable" message="tns:IService1_GetCurrentComTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetCurrentComTimeTableResponse" message="tns:IService1_GetCurrentComTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentMngTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetCurrentMngTimeTable" message="tns:IService1_GetCurrentMngTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetCurrentMngTimeTableResponse" message="tns:IService1_GetCurrentMngTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentEngTimeTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetCurrentEngTimeTable" message="tns:IService1_GetCurrentEngTimeTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetCurrentEngTimeTableResponse" message="tns:IService1_GetCurrentEngTimeTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Userlogine">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Userlogine" message="tns:IService1_Userlogine_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UserlogineResponse" message="tns:IService1_Userlogine_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SearchStaff" message="tns:IService1_SearchStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SearchStaffResponse" message="tns:IService1_SearchStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchStudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SearchStudent" message="tns:IService1_SearchStudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SearchStudentResponse" message="tns:IService1_SearchStudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WebLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/WebLogin" message="tns:IService1_WebLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/WebLoginResponse" message="tns:IService1_WebLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WebLogin2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/WebLogin2" message="tns:IService1_WebLogin2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/WebLogin2Response" message="tns:IService1_WebLogin2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchComputingTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SearchComputingTable" message="tns:IService1_SearchComputingTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SearchComputingTableResponse" message="tns:IService1_SearchComputingTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchManagementTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SearchManagementTable" message="tns:IService1_SearchManagementTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SearchManagementTableResponse" message="tns:IService1_SearchManagementTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchengineeringTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SearchengineeringTable" message="tns:IService1_SearchengineeringTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SearchengineeringTableResponse" message="tns:IService1_SearchengineeringTable_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddComputingTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddComputingTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddManagementTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddManagementTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddEngineeringTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddEngineeringTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetComTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetComTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetmngTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetmngTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetengTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetengTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddStaffTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddStaffTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddStudentTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddStudentTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpEngineeringTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpEngineeringTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpcomineeringTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpcomineeringTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpmngineeringTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpmngineeringTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelEngineeringTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelEngineeringTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelcomineeringTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelcomineeringTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelmngineeringTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelmngineeringTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpStaffTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpStaffTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpStudentTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpStudentTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delstaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/Delstaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delstudent">
+      <soap:operation soapAction="http://tempuri.org/IService1/Delstudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getstf">
+      <soap:operation soapAction="http://tempuri.org/IService1/getstf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getstu">
+      <soap:operation soapAction="http://tempuri.org/IService1/getstu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getstfIDnEmail">
+      <soap:operation soapAction="http://tempuri.org/IService1/getstfIDnEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentComTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetCurrentComTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentMngTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetCurrentMngTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentEngTimeTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetCurrentEngTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Userlogine">
+      <soap:operation soapAction="http://tempuri.org/IService1/Userlogine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchStaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/SearchStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchStudent">
+      <soap:operation soapAction="http://tempuri.org/IService1/SearchStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebLogin">
+      <soap:operation soapAction="http://tempuri.org/IService1/WebLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebLogin2">
+      <soap:operation soapAction="http://tempuri.org/IService1/WebLogin2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchComputingTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/SearchComputingTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchManagementTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/SearchManagementTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchengineeringTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/SearchengineeringTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:16924/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

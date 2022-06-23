@@ -1,0 +1,229 @@
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\ApplicationInsights.config
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\WcfService1.dll.config
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\WcfService1.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\WcfService1.pdb
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.Web.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.Web.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
+C:\Users\VCT\Desktop\WcfService1\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\System.Buffers.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\System.Memory.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.pdb
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.pdb
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.Web.pdb
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.pdb
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.pdb
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\System.Buffers.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\System.Memory.xml
+C:\Users\VCT\Desktop\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\ApplicationInsights.config
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\WcfService1.dll.config
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\WcfService1.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\WcfService1.pdb
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\System.Buffers.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\System.Memory.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.pdb
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.pdb
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.pdb
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.pdb
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.pdb
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\System.Buffers.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\System.Memory.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CopyComplete
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+C:\Users\Batman\Downloads\NSBM Group Project\DS Project\DS final1\Server\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\ApplicationInsights.config
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\WcfService1.dll.config
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\WcfService1.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\WcfService1.pdb
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\System.Buffers.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\System.Memory.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.pdb
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.pdb
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.pdb
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.pdb
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.pdb
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\System.Buffers.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\System.Memory.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csprojAssemblyReference.cache
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CopyComplete
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+D:\DoNotDelete\SnehaD\Downloads\SchoolResourceAllocationSystem-main\Server\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\ApplicationInsights.config
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\WcfService1.dll.config
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\WcfService1.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\WcfService1.pdb
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\System.Buffers.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\System.Memory.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.pdb
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.pdb
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.pdb
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.pdb
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.pdb
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\System.Buffers.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\System.Memory.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CopyComplete
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+D:\NSBMFinal\Chamodya\CNET343SL-Group 42\Server\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\ApplicationInsights.config
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\WcfService1.dll.config
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\WcfService1.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\WcfService1.pdb
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Buffers.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Memory.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Numerics.Vectors.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.pdb
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.pdb
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.pdb
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.pdb
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.pdb
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Buffers.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Memory.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Numerics.Vectors.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CopyComplete
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+D:\NSBMFinal\Distributed System Group 77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\ApplicationInsights.config
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\WcfService1.dll.config
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\WcfService1.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\WcfService1.pdb
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Buffers.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Memory.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Numerics.Vectors.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.pdb
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.pdb
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.pdb
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.Web.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.pdb
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AI.WindowsServer.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.pdb
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.ApplicationInsights.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Buffers.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Memory.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Numerics.Vectors.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CopyComplete
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+D:\Distributed Systems\Coursework- Group77\DS_group77\Server\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
