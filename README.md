@@ -1,2 +1,2 @@
-# Distributed-System-A RESOURCE-ALLOCATION SYSTEM FOR GOVERNMENT-SCHOOLS
+# Distributed System- A RESOURCE ALLOCATION SYSTEM FOR GOVERNMENT SCHOOLS
 The distributed system that has been introduced is a Resource Allocation System for  Government Schools. The Resource Allocation System is accessible as a desktop program as  well as a web-based application. The Web Communication Foundation (WCF) was utilized in  the implementation to offer web service between the desktop application and the web application. 
